@@ -1,0 +1,54 @@
+# Build output
+bin/
+obj/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# User-specific files
+*.rsuser
+*.user
+*.suo
+*.userosscache
+*.userprefs
+.vscode/
+.vscode/*
+.vscode-test/
+
+# Rider
+.idea/
+.idea/*
+*.sln.iml
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Visual Studio Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# NPM Packages
+node_modules/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.dll
+*.exe
+*.pyc
+
+# Blazor specific
+wwwroot/css/app.css
+wwwroot/css/bootstrap/*
+
+# Publish output
+/wwwroot/build/
