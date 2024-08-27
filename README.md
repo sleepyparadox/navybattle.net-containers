@@ -18,3 +18,14 @@ docker login
 docker push sleepyparadox/navybattle-api:latest
 ```
 
+### Build and push navybattle-client image
+
+Build and push the navybattle-client container to your container repository
+
+I've pushed to [sleepyparadox/navybattle-client:latest](https://hub.docker.com/repository/docker/sleepyparadox/navybattle-client) on Docker Hub
+
+```bash
+docker build -t sleepyparadox/navybattle-client:latest containers/navybattle-client
+docker login
+docker push sleepyparadox/navybattle-client:latest
+```
